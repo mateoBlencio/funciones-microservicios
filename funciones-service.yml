@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: funciones-service
+
 server:
   port: ${PORT:${SERVER_PORT:0}}
 
