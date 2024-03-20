@@ -20,14 +20,8 @@ spring:
         - id: funciones-service
           uri: lb://funciones-service
           predicates:
-            - Path=/estadossalas/**
-            - Path=/funciones/**
-            - Path=/salas/**
             - Path=/tipossalas/**
         - id: peliculas-service
           uri: lb://peliculas-service
           predicates:
-            - Path=/calificaciones/**
-            - Path=/categorias/**
-            - Path=/peliculas/estados/**
             - Path=/peliculas/**
