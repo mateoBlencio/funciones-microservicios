@@ -20,7 +20,7 @@ spring:
         - id: funciones-service
           uri: lb://funciones-service
           predicates:
-            - Path=/tipossalas/**
+            - Path=/funciones/**
         - id: peliculas-service
           uri: lb://peliculas-service
           predicates:
